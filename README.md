@@ -200,32 +200,30 @@ vatandaşların da tam kullanabildiği, çok kiracılı (multi-tenant) hizmet pl
 
 ---
 
-## `~$ git shortlog -sn --all`
+## `~$ ./metrics --full --plugins=languages,isocalendar,habits,activity,achievements`
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/farukhv/farukhv/profile-summary-card-output/2077/0-profile-details.svg" width="98%" alt="profile-details"/>
-
-<img src="https://raw.githubusercontent.com/farukhv/farukhv/profile-summary-card-output/2077/3-stats.svg" width="49%" alt="stats"/>
-<img src="https://raw.githubusercontent.com/farukhv/farukhv/profile-summary-card-output/2077/4-productive-time.svg" width="49%" alt="productive-time"/>
-
-<img src="https://raw.githubusercontent.com/farukhv/farukhv/profile-summary-card-output/2077/1-repos-per-language.svg" width="49%" alt="repos-per-language"/>
-<img src="https://raw.githubusercontent.com/farukhv/farukhv/profile-summary-card-output/2077/2-most-commit-language.svg" width="49%" alt="most-commit-language"/>
-
-<br/><br/>
-
-<img src="https://streak-stats.demolab.com/?user=farukhv&hide_border=true&background=0B0F0A&stroke=00FF9C&ring=00E5FF&fire=00FF9C&currStreakLabel=00FF9C&sideNums=C9D1D9&sideLabels=C9D1D9&dates=8B949E" width="98%" alt="streak"/>
+<!-- Bu kart metrics.yml workflow'u + METRICS_TOKEN secret'ı ile dolar.
+     Diller, yıl haritası, kodlama alışkanlıkları, aktivite, başarımlar — hepsi tek SVG'de.
+     Token eklemek istemezsen bu bloğu tamamen silebilirsin; alttaki bölümler token'sız çalışır. -->
+<img src="https://raw.githubusercontent.com/farukhv/farukhv/main/github-metrics.svg" width="98%" alt="metrics"/>
 
 </div>
 
 ---
 
-## `~$ ./metrics --full --plugins=all`
+## `~$ git shortlog -sn --all`
 
 <div align="center">
 
-<!-- METRICS_TOKEN secret'ı eklenince dolar. İstemezsen bu bloğu sil. -->
-<img src="https://raw.githubusercontent.com/farukhv/farukhv/main/github-metrics.svg" width="98%" alt="metrics"/>
+<img src="https://streak-stats.demolab.com/?user=farukhv&hide_border=true&background=0B0F0A&stroke=00FF9C&ring=00E5FF&fire=00FF9C&currStreakLabel=00FF9C&sideNums=C9D1D9&sideLabels=C9D1D9&dates=8B949E" width="98%" alt="streak"/>
+
+<br/><br/>
+
+<!-- github-readme-stats üçüncü parti; ara sıra 503 verebilir, o an gösterilmez. -->
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=farukhv&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=0B0F0A&title_color=00FF9C&icon_color=00E5FF&text_color=C9D1D9" alt="stats"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=farukhv&layout=compact&langs_count=10&hide_border=true&bg_color=0B0F0A&title_color=00FF9C&text_color=C9D1D9" alt="langs"/>
 
 </div>
 
