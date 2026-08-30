@@ -1,0 +1,26 @@
+name: profile summary cards
+
+on:
+  schedule:
+    - cron: "0 5 * * *"          # her gün 05:00 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Özet kartlarını üret (2077 teması)
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: farukhv
+          BRANCH_NAME: profile-summary-card-output
+          UTC_OFFSET: 3
