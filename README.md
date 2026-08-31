@@ -93,19 +93,56 @@ Curiosity is part of the stack.
 
 ---
 
-## `03 // currently.building`
+## `03 // selected.work`
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### ♿ Accessible Digital Systems
+### ♿ Accessibility Systems
 
-Designing and developing systems where accessibility is treated as a core product requirement.
+Accessibility-first product engineering, automated inspection, scoring and reporting.
 
-`WCAG 2.2` `Accessible UX` `Web Systems` `Automation`
+`WCAG 2.2` `Automation` `Web` `Reporting`
+
+[**Open case study →**](./showcase/accessibility-systems.md)
 
 </td>
+<td width="33%" valign="top">
+
+### 🛰️ Mars Rover Edge AI
+
+Local analysis of sensor and camera data before transmission, combining edge decisions with AI-assisted image analysis.
+
+`Python` `AI` `Edge Computing` `Space`
+
+[**Open case study →**](./showcase/mars-rover-edge-ai.md)
+
+</td>
+<td width="33%" valign="top">
+
+### 🏠 Full-Stack Platform
+
+A production-oriented real-estate system spanning listings, appointments, administration, APIs, data and deployment.
+
+`React` `TypeScript` `REST` `Prisma`
+
+[**Open case study →**](./showcase/real-estate-platform.md)
+
+</td>
+</tr>
+</table>
+
+> Selected source repositories are intentionally private. The public case studies expose the **engineering decisions, architecture and lessons** without publishing proprietary code, credentials or customer data.
+
+<p align="right"><a href="./showcase/README.md">View engineering showcase →</a></p>
+
+---
+
+## `04 // currently.building`
+
+<table>
+<tr>
 <td width="50%" valign="top">
 
 ### ◉ Accessibility Analysis
@@ -115,24 +152,13 @@ Exploring automated inspection, scoring and reporting flows for digital accessib
 `Analysis` `Automation` `Reporting` `Web`
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### ◈ Applied AI
 
-Experimenting with AI where it can remove repetitive work, improve decisions or create better interaction patterns.
+Using AI where it can remove repetitive work, improve decisions or create better interaction patterns — without making the system depend blindly on model output.
 
 `AI` `Integration` `Automation` `Experiments`
-
-</td>
-<td width="50%" valign="top">
-
-### ◇ Software Architecture
-
-Working across backend services, authentication, databases, APIs, deployment and maintainability.
-
-`Backend` `Architecture` `Security` `Infrastructure`
 
 </td>
 </tr>
@@ -140,7 +166,7 @@ Working across backend services, authentication, databases, APIs, deployment and
 
 ---
 
-## `04 // engineering.dna`
+## `05 // engineering.dna`
 
 ```text
                             IDEA
@@ -197,7 +223,7 @@ Accessibility · secure systems · automation · artificial intelligence · syst
 
 ---
 
-## `05 // engineering.philosophy`
+## `06 // engineering.philosophy`
 
 > **Accessibility is architecture.**  
 > Not decoration.
@@ -214,48 +240,20 @@ Accessibility · secure systems · automation · artificial intelligence · syst
 
 ---
 
-## `06 // work.log`
-
-```text
-farukhv@github:~$ ./inspect --work
-```
-
-I prefer projects that move beyond *“it works”* toward:
-
-```text
-idea
-  │
-  ▼
-prototype
-  │
-  ▼
-architecture
-  │
-  ▼
-implementation
-  │
-  ▼
-security
-  │
-  ▼
-accessibility
-  │
-  ▼
-deployment
-  │
-  ▼
-real users
-```
-
-That final step changes everything.
-
----
-
 ## `07 // github.telemetry`
 
 <p align="center">
-  <img src="./github-metrics.svg" width="100%" alt="farukhv GitHub activity metrics" />
+  <img src="./github-metrics.svg" width="100%" alt="farukhv GitHub telemetry" />
 </p>
+
+<details>
+<summary><code>▶ telemetry.note</code></summary>
+
+<br />
+
+The telemetry panel always has a committed fallback. If a personal metrics token is configured later, the workflow automatically upgrades it to richer GitHub metrics without changing the README.
+
+</details>
 
 ---
 
