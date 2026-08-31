@@ -5,7 +5,7 @@
 -->
 
 <p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="FARUKHV developer identity dashboard — software engineering, accessibility, AI and secure systems" />
+  <img src="./assets/hero.svg" width="100%" alt="FARUKHV developer identity dashboard — computer engineering, accessibility, AI and secure systems" />
 </p>
 
 <div align="center">
@@ -24,7 +24,7 @@
 identity:
   name: Muhammed Faruk Menek
   handle: farukhv
-  role: Software Engineering Student / Developer
+  role: Computer Engineering Student / Developer
   location: Türkiye
 
 focus:
@@ -330,14 +330,8 @@ status:
 
 </div>
 
----
+<br />
 
-<div align="center">
-
-### `SOFTWARE SHOULD DO MORE THAN RUN.`
-
-**It should solve. It should survive. It should include.**
-
-`farukhv@github:~$ █`
-
-</div>
+<p align="center">
+  <img src="./assets/footer.svg" width="100%" alt="Software should do more than run — it should solve, survive and include" />
+</p>
