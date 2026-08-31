@@ -1,99 +1,112 @@
 <!--
-  farukhv / profile.system
-  You opened the source. Good.
-  Curiosity is usually where engineering starts.
+  farukhv / README.interface
+  If you opened the source, you are exactly the kind of person I like building with.
 -->
 
 <p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="FARUKHV developer identity dashboard — computer engineering, accessibility, AI and secure systems" />
+  <img src="./assets/boot.svg" width="100%" alt="Animated FARUKHV developer interface boot sequence" />
 </p>
 
 <div align="center">
 
-<a href="mailto:mfarukmenek@gmail.com"><img src="https://img.shields.io/badge/EMAIL-0D1117?style=for-the-badge&logo=gmail&logoColor=22D3EE" alt="Email" /></a>
-<img src="https://komarev.com/ghpvc/?username=farukhv&style=for-the-badge&color=238636&labelColor=0D1117&label=PROFILE+VIEWS" alt="Profile views" />
-<img src="https://img.shields.io/github/followers/farukhv?style=for-the-badge&logo=github&logoColor=22D3EE&labelColor=0D1117&color=0D1117" alt="GitHub followers" />
+<a href="mailto:mfarukmenek@gmail.com"><img src="https://img.shields.io/badge/MAIL-0D1117?style=for-the-badge&logo=gmail&logoColor=22D3EE" alt="Email" /></a>
+<img src="https://komarev.com/ghpvc/?username=farukhv&style=for-the-badge&color=238636&labelColor=0D1117&label=VISITORS" alt="Profile views" />
+<img src="https://img.shields.io/github/followers/farukhv?style=for-the-badge&logo=github&logoColor=22D3EE&labelColor=0D1117&color=0D1117&label=FOLLOWERS" alt="GitHub followers" />
 
 </div>
 
 ---
 
-## `01 // whoami`
-
-```yaml
-identity:
-  name: Muhammed Faruk Menek
-  handle: farukhv
-  role: Computer Engineering Student / Developer
-  location: Türkiye
-
-focus:
-  - accessible digital systems
-  - software architecture
-  - artificial intelligence
-  - automation
-  - secure engineering
-
-principles:
-  accessibility: architecture, not decoration
-  security: by design
-  complexity: justify it
-  deployment: part of development
-  mission: build systems people can actually use
-```
-
-I am interested in software that survives the distance between **prototype** and **real use**.
-
-That means thinking about architecture, accessibility, security, deployment and maintainability — not only whether the code runs.
-
----
-
-## `02 // system.identity`
-
 <table>
 <tr>
-<td width="25%" align="center" valign="top">
-
-### `ENGINEER`
-
-Systems before snippets.
-
-Architecture, APIs, data and deployment.
-
+<td width="145" align="center" valign="middle">
+<img src="https://github.com/farukhv.png" width="104" alt="farukhv avatar" />
+<br/><br/>
+<code>@farukhv</code>
 </td>
-<td width="25%" align="center" valign="top">
+<td valign="middle">
 
-### `ACCESS`
+### `> identity --resolve`
 
-Accessibility belongs in the architecture.
+**Muhammed Faruk Menek** — Computer Engineering student and developer from Türkiye.
 
-Not at the end of the checklist.
+I build around one question: **does this become useful outside the demo?**
 
-</td>
-<td width="25%" align="center" valign="top">
-
-### `SECURE`
-
-Security is a design decision.
-
-Not a patch after release.
-
-</td>
-<td width="25%" align="center" valign="top">
-
-### `EXPLORE`
-
-AI, automation and unfamiliar problems.
-
-Curiosity is part of the stack.
+My work sits where `accessibility`, `software architecture`, `AI`, `automation` and `secure engineering` meet.
 
 </td>
 </tr>
 </table>
 
----
+## `command.palette`
 
-## `03 // selected.work`
+> These are real expandable sections. Pick a command.
+
+<details>
+<summary><code>▶ whoami --verbose</code></summary>
+
+<br/>
+
+```yaml
+identity:
+  role: Computer Engineering Student / Developer
+  mode: builder
+  location: Türkiye
+
+focus:
+  - accessibility-first systems
+  - applied artificial intelligence
+  - backend & software architecture
+  - automation
+  - secure-by-design engineering
+
+rule:
+  "technology matters when people can actually use it"
+```
+
+I care about what happens **after the code works**: deployment, maintainability, security, accessibility and real users.
+
+</details>
+
+<details>
+<summary><code>▶ stack --inspect</code></summary>
+
+<br/>
+
+**Build**  
+`React` · `TypeScript` · `JavaScript` · `Node.js` · `NestJS` · `PostgreSQL`
+
+**Operate**  
+`Docker` · `Linux` · `Git` · `GitHub Actions`
+
+**Think**  
+`Architecture` · `Accessibility` · `Security` · `Automation` · `AI`
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,js,react,nodejs,nestjs,postgres,docker,linux,git,github,html,css&perline=12" alt="Core technologies" />
+</p>
+
+</details>
+
+<details>
+<summary><code>▶ philosophy.txt</code></summary>
+
+<br/>
+
+> **Accessibility is architecture.** Not decoration.
+>
+> **Security is a design decision.** Not a patch.
+>
+> **Deployment is development.** Local success is not production success.
+>
+> **Complexity should earn its place.**
+
+</details>
+
+<details open>
+<summary><code>▼ selected-work --showcase</code></summary>
+
+<br/>
 
 <table>
 <tr>
@@ -101,180 +114,85 @@ Curiosity is part of the stack.
 
 ### ♿ Accessibility Systems
 
-Accessibility-first product engineering, automated inspection, scoring and reporting.
+Automated inspection, scoring and reporting around digital accessibility.
 
-`WCAG 2.2` `Automation` `Web` `Reporting`
+`WCAG 2.2` `Automation` `Reporting`
 
-[**Open case study →**](./showcase/accessibility-systems.md)
+[**case study →**](./showcase/accessibility-systems.md)
 
 </td>
 <td width="33%" valign="top">
 
 ### 🛰️ Mars Rover Edge AI
 
-Local analysis of sensor and camera data before transmission, combining edge decisions with AI-assisted image analysis.
+Edge-first scientific filtering and AI-assisted anomaly analysis for rover sensor/camera data.
 
-`Python` `AI` `Edge Computing` `Space`
+`Python` `AI` `Edge Computing`
 
-[**Open case study →**](./showcase/mars-rover-edge-ai.md)
+[**case study →**](./showcase/mars-rover-edge-ai.md)
 
 </td>
 <td width="33%" valign="top">
 
 ### 🏠 Full-Stack Platform
 
-A production-oriented real-estate system spanning listings, appointments, administration, APIs, data and deployment.
+Production-oriented property platform across UI, API, auth, data and deployment.
 
 `React` `TypeScript` `REST` `Prisma`
 
-[**Open case study →**](./showcase/real-estate-platform.md)
+[**case study →**](./showcase/real-estate-platform.md)
 
 </td>
 </tr>
 </table>
 
-> Selected source repositories are intentionally private. The public case studies expose the **engineering decisions, architecture and lessons** without publishing proprietary code, credentials or customer data.
-
-<p align="right"><a href="./showcase/README.md">View engineering showcase →</a></p>
-
----
-
-## `04 // currently.building`
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### ◉ Accessibility Analysis
-
-Exploring automated inspection, scoring and reporting flows for digital accessibility problems.
-
-`Analysis` `Automation` `Reporting` `Web`
-
-</td>
-<td width="50%" valign="top">
-
-### ◈ Applied AI
-
-Using AI where it can remove repetitive work, improve decisions or create better interaction patterns — without making the system depend blindly on model output.
-
-`AI` `Integration` `Automation` `Experiments`
-
-</td>
-</tr>
-</table>
-
----
-
-## `05 // engineering.dna`
-
-```text
-                            IDEA
-                             │
-                             ▼
-                         ENGINEER
-                             │
-              ┌──────────────┼──────────────┐
-              ▼              ▼              ▼
-        ACCESSIBILITY     SECURITY          AI
-              │              │              │
-              └──────────────┼──────────────┘
-                             ▼
-                            SHIP
-                             │
-                             ▼
-                         REAL USERS
-```
-
-### Build
-
-`React` · `TypeScript` · `JavaScript` · `Node.js` · `NestJS` · `PostgreSQL`
-
-### Operate
-
-`Docker` · `Linux` · `Git` · `GitHub Actions`
-
-### Think
-
-`Software Architecture` · `Accessibility` · `Security` · `Automation` · `Artificial Intelligence`
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,react,nodejs,nestjs,postgres,docker,linux,git,github,html,css&perline=12" alt="Technology stack" />
-</p>
-
-<details>
-<summary><code>▶ ./inspect --engineering-profile</code></summary>
-
-<br />
-
-**Frontend**  
-React · TypeScript · JavaScript · HTML · CSS
-
-**Backend**  
-Node.js · NestJS · REST APIs · PostgreSQL
-
-**Infrastructure**  
-Docker · Linux · GitHub Actions · deployment workflows
-
-**Engineering interests**  
-Accessibility · secure systems · automation · artificial intelligence · system architecture
+<p align="right"><a href="./showcase/README.md">open engineering showcase →</a></p>
 
 </details>
 
 ---
 
-## `06 // engineering.philosophy`
-
-> **Accessibility is architecture.**  
-> Not decoration.
-
-> **Security is a design decision.**  
-> Not a patch.
-
-> **Deployment is part of development.**  
-> Software that only works locally is unfinished work.
-
-> **Complexity should earn its place.**
-
-> **Technology matters when people can actually use it.**
-
----
-
-## `07 // github.telemetry`
+## `live.contributions // generated from GitHub`
 
 <p align="center">
-  <img src="./github-metrics.svg" width="100%" alt="farukhv GitHub telemetry" />
+  <img src="./profile-3d-contrib/profile-night-green.svg" width="100%" alt="Live 3D GitHub contribution calendar" />
 </p>
 
 <details>
-<summary><code>▶ telemetry.note</code></summary>
+<summary><code>▶ why this is different</code></summary>
 
-<br />
+<br/>
 
-The telemetry panel always has a committed fallback. If a personal metrics token is configured later, the workflow automatically upgrades it to richer GitHub metrics without changing the README.
+This visualization is **not a decorative mockup**. A GitHub Action regenerates it from contribution data every day and after profile updates.
 
 </details>
 
----
-
-## `08 // contribution.stream`
+## `activity.stream`
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/farukhv/farukhv/output/github-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/farukhv/farukhv/output/github-snake.svg" />
-    <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/farukhv/farukhv/output/github-snake.svg" />
+    <img alt="Live GitHub contribution snake" src="https://raw.githubusercontent.com/farukhv/farukhv/output/github-snake.svg" />
   </picture>
 </p>
 
 ---
 
-## `09 // beyond.code`
+## `current.processes`
+
+```text
+PID   PROCESS                         STATE
+101   accessible-systems              BUILDING
+202   applied-ai                      EXPERIMENTING
+303   software-architecture           LEARNING + SHIPPING
+404   unnecessary-complexity          NOT FOUND
+```
 
 <details>
 <summary><code>▶ ./open interests/</code></summary>
 
-<br />
+<br/>
 
 ```text
 technology/
@@ -286,49 +204,35 @@ technology/
 ├── aviation
 └── space
 
-life/
+outside-code/
 ├── music
 ├── learning
-├── building
-└── exploring
-```
-
-Sometimes a project starts because there is a clear need.
-
-Sometimes this is enough:
-
-```text
-"Can this be done?"
+├── exploring
+└── building-things-because-can-this-be-done
 ```
 
 </details>
 
 ---
 
-## `10 // connection`
+## `connect`
 
-```text
-farukhv@github:~$ ./connect
+```console
+farukhv@github:~$ ./connect --open
 
-looking for:
-  → interesting engineering problems
-  → accessibility projects
-  → open-source collaboration
-  → AI experiments
-  → ambitious ideas
-
-status:
-  accepting packets █
+→ interesting engineering problems
+→ accessibility projects
+→ AI experiments
+→ open-source collaboration
+→ ambitious ideas that need to become real systems
 ```
 
 <div align="center">
-
-<a href="mailto:mfarukmenek@gmail.com"><img src="https://img.shields.io/badge/CONTACT-MAIL-0D1117?style=for-the-badge&logo=gmail&logoColor=22D3EE" alt="Contact by email" /></a>
-<a href="https://github.com/farukhv"><img src="https://img.shields.io/badge/GITHUB-FARUKHV-0D1117?style=for-the-badge&logo=github&logoColor=3FB950" alt="GitHub profile" /></a>
-
+<a href="mailto:mfarukmenek@gmail.com"><img src="https://img.shields.io/badge/START_A_CONVERSATION-0D1117?style=for-the-badge&logo=gmail&logoColor=22D3EE" alt="Contact by email" /></a>
+<a href="https://github.com/farukhv"><img src="https://img.shields.io/badge/FOLLOW_@FARUKHV-0D1117?style=for-the-badge&logo=github&logoColor=3FB950" alt="GitHub profile" /></a>
 </div>
 
-<br />
+<br/>
 
 <p align="center">
   <img src="./assets/footer.svg" width="100%" alt="Software should do more than run — it should solve, survive and include" />
