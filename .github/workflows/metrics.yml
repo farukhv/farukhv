@@ -14,12 +14,14 @@ jobs:
   metrics:
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    env:
+      METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
     steps:
       - name: Generate rich metrics when token is available
-        if: ${{ secrets.METRICS_TOKEN != '' }}
+        if: ${{ env.METRICS_TOKEN != '' }}
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ env.METRICS_TOKEN }}
           user: farukhv
           filename: github-metrics.svg
           template: classic
@@ -44,7 +46,7 @@ jobs:
           config_order: base.header, languages, isocalendar, activity, topics
 
       - name: Keep built-in telemetry fallback
-        if: ${{ secrets.METRICS_TOKEN == '' }}
+        if: ${{ env.METRICS_TOKEN == '' }}
         run: |
           echo "METRICS_TOKEN is not configured."
           echo "Using the committed github-metrics.svg fallback; workflow remains healthy."
