@@ -1,14 +1,11 @@
 name: generate snake animation
 
 on:
-  # Katkı grafiği değiştikçe güncellensin: 12 saatte bir
   schedule:
     - cron: "0 */12 * * *"
-  # main'e her push'ta
   push:
     branches:
       - main
-  # Actions sekmesinden elle tetikleme
   workflow_dispatch:
 
 permissions:
@@ -19,17 +16,15 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: Yılan SVG'lerini üret
+      - name: Generate contribution streams
         uses: Platane/snk@v3
-        id: snake-gif
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark&color_snake=#00FF9C
-            dist/github-contribution-grid-snake.gif
+            dist/github-snake.svg?color_snake=%2322D3EE&color_dots=%23ebedf0,%230E4429,%23006D32,%2326A641,%2339D353
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=%2322D3EE&color_dots=%23161B22,%230E4429,%23006D32,%2326A641,%2339D353
 
-      - name: output dalına yayınla
+      - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
