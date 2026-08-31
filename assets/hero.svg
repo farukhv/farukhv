@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">FARUKHV developer identity dashboard</title>
+  <desc id="desc">Software engineering, accessibility, artificial intelligence and secure systems profile dashboard.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071018"/><stop offset="1" stop-color="#0D1117"/></linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#22D3EE"/><stop offset=".52" stop-color="#238636"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="avatarClip"><circle cx="160" cy="151" r="92"/></clipPath>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#1F6FEB" opacity=".12"/></pattern>
+  </defs>
+  <rect width="1200" height="420" rx="22" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="418" rx="21" fill="none" stroke="#244258"/>
+  <rect width="1200" height="420" rx="22" fill="url(#dots)"/>
+
+  <!-- identity panel -->
+  <rect x="18" y="18" width="302" height="384" rx="18" fill="#08131D" stroke="#1D4357"/>
+  <path d="M18 58V36Q18 18 36 18h30M320 58V36Q320 18 302 18h-30" fill="none" stroke="#22D3EE" stroke-width="2"/>
+  <circle cx="39" cy="41" r="4" fill="#3FB950"><animate attributeName="opacity" values="1;.3;1" dur="1.8s" repeatCount="indefinite"/></circle>
+  <text x="54" y="47" fill="#59D9EE" font-family="monospace" font-size="13">identity.system</text>
+
+  <circle cx="160" cy="151" r="104" fill="none" stroke="#144B62"/>
+  <circle cx="160" cy="151" r="99" fill="none" stroke="#22D3EE" stroke-dasharray="2 8" opacity=".75"><animateTransform attributeName="transform" type="rotate" from="0 160 151" to="360 160 151" dur="24s" repeatCount="indefinite"/></circle>
+  <image href="https://github.com/farukhv.png" x="68" y="59" width="184" height="184" preserveAspectRatio="xMidYMid slice" clip-path="url(#avatarClip)"/>
+  <circle cx="238" cy="218" r="15" fill="#0D1117" stroke="#195B73"/>
+  <circle cx="238" cy="218" r="7" fill="#3FB950" filter="url(#glow)"><animate attributeName="r" values="6;8;6" dur="1.8s" repeatCount="indefinite"/></circle>
+
+  <text x="42" y="292" fill="#F0F6FC" font-family="Arial, sans-serif" font-size="38" font-weight="700" letter-spacing="2">FARUKHV</text>
+  <rect x="235" y="299" width="18" height="4" fill="#22D3EE"><animate attributeName="opacity" values="1;0;1" dur=".9s" repeatCount="indefinite"/></rect>
+  <text x="42" y="320" fill="#22D3EE" font-family="monospace" font-size="16">@farukhv</text>
+  <text x="42" y="344" fill="#9DB4C5" font-family="monospace" font-size="12">SOFTWARE ENGINEERING · ACCESSIBILITY</text>
+
+  <rect x="42" y="360" width="76" height="24" rx="6" fill="#0A1822" stroke="#17475C"/><text x="54" y="376" fill="#BFD7E5" font-family="monospace" font-size="10">ACCESS</text>
+  <rect x="126" y="360" width="55" height="24" rx="6" fill="#0A1822" stroke="#17475C"/><text x="142" y="376" fill="#BFD7E5" font-family="monospace" font-size="10">AI</text>
+  <rect x="189" y="360" width="89" height="24" rx="6" fill="#0A1822" stroke="#17475C"/><text x="202" y="376" fill="#BFD7E5" font-family="monospace" font-size="10">SECURE</text>
+
+  <!-- terminal header -->
+  <rect x="338" y="18" width="844" height="54" rx="12" fill="#08131D" stroke="#1D4357"/>
+  <text x="366" y="51" fill="#3FB950" font-family="monospace" font-size="20">farukhv@github:~$</text>
+  <text x="570" y="51" fill="#E6EDF3" font-family="monospace" font-size="20">./build</text>
+  <rect x="651" y="34" width="10" height="20" fill="#8B949E"><animate attributeName="opacity" values="1;0;1" dur=".95s" repeatCount="indefinite"/></rect>
+  <text x="1040" y="50" fill="#22D3EE" font-family="monospace" font-size="12">SYSTEM ONLINE</text>
+  <circle cx="1157" cy="45" r="4" fill="#3FB950"/>
+
+  <!-- activity stream -->
+  <rect x="338" y="86" width="844" height="135" rx="12" fill="#08131D" stroke="#1D4357"/>
+  <text x="365" y="113" fill="#22D3EE" font-family="monospace" font-size="13">activity.stream // building</text>
+  <g transform="translate(365 132)">
+    <rect width="15" height="15" rx="3" fill="#0E4429"/><rect x="21" width="15" height="15" rx="3" fill="#006D32"/><rect x="42" width="15" height="15" rx="3" fill="#26A641"/><rect x="63" width="15" height="15" rx="3" fill="#39D353"/>
+    <rect y="21" width="15" height="15" rx="3" fill="#006D32"/><rect x="21" y="21" width="15" height="15" rx="3" fill="#0E4429"/><rect x="42" y="21" width="15" height="15" rx="3" fill="#39D353"/><rect x="63" y="21" width="15" height="15" rx="3" fill="#26A641"/>
+    <rect y="42" width="15" height="15" rx="3" fill="#26A641"/><rect x="21" y="42" width="15" height="15" rx="3" fill="#39D353"/><rect x="42" y="42" width="15" height="15" rx="3" fill="#0E4429"/><rect x="63" y="42" width="15" height="15" rx="3" fill="#006D32"/>
+    <g id="block"><rect width="15" height="15" rx="3" fill="#0E4429"/><rect x="21" width="15" height="15" rx="3" fill="#26A641"/><rect x="42" width="15" height="15" rx="3" fill="#006D32"/><rect x="63" width="15" height="15" rx="3" fill="#39D353"/><rect y="21" width="15" height="15" rx="3" fill="#39D353"/><rect x="21" y="21" width="15" height="15" rx="3" fill="#0E4429"/><rect x="42" y="21" width="15" height="15" rx="3" fill="#26A641"/><rect x="63" y="21" width="15" height="15" rx="3" fill="#006D32"/><rect y="42" width="15" height="15" rx="3" fill="#006D32"/><rect x="21" y="42" width="15" height="15" rx="3" fill="#39D353"/><rect x="42" y="42" width="15" height="15" rx="3" fill="#0E4429"/><rect x="63" y="42" width="15" height="15" rx="3" fill="#26A641"/></g>
+    <use href="#block" x="92"/><use href="#block" x="184"/><use href="#block" x="276"/><use href="#block" x="368"/><use href="#block" x="460"/><use href="#block" x="552"/><use href="#block" x="644"/>
+  </g>
+  <text x="365" y="207" fill="#728797" font-family="monospace" font-size="10">ideas → prototypes → systems → real users</text>
+
+  <!-- lower left -->
+  <rect x="338" y="235" width="374" height="151" rx="12" fill="#08131D" stroke="#1D4357"/>
+  <text x="365" y="263" fill="#22D3EE" font-family="monospace" font-size="13">engineering.profile</text>
+  <text x="365" y="298" fill="#E6EDF3" font-family="monospace" font-size="15">BUILD SYSTEMS, NOT SNIPPETS.</text>
+  <text x="365" y="327" fill="#8FA6B5" font-family="monospace" font-size="12">accessibility     architecture</text>
+  <text x="365" y="349" fill="#8FA6B5" font-family="monospace" font-size="12">automation        secure-by-design</text>
+  <text x="365" y="371" fill="#3FB950" font-family="monospace" font-size="11">STATUS: ACTIVE</text>
+  <path d="M617 278h62v62h-62zM628 289h40v40h-40zM637 298h22v22h-22z" fill="none" stroke="#22D3EE" opacity=".7"><animate attributeName="opacity" values=".25;1;.25" dur="2.5s" repeatCount="indefinite"/></path>
+
+  <!-- lower right -->
+  <rect x="726" y="235" width="456" height="151" rx="12" fill="#08131D" stroke="#1D4357"/>
+  <text x="753" y="263" fill="#22D3EE" font-family="monospace" font-size="13">system.info</text>
+  <line x1="753" y1="280" x2="1155" y2="280" stroke="#173343"/>
+  <text x="753" y="303" fill="#7F97A8" font-family="monospace" font-size="11">ROLE</text><text x="840" y="303" fill="#E6EDF3" font-family="monospace" font-size="11">Software Engineering Student</text>
+  <text x="753" y="326" fill="#7F97A8" font-family="monospace" font-size="11">FOCUS</text><text x="840" y="326" fill="#E6EDF3" font-family="monospace" font-size="11">Accessibility · AI · Secure Systems</text>
+  <text x="753" y="349" fill="#7F97A8" font-family="monospace" font-size="11">STACK</text><text x="840" y="349" fill="#E6EDF3" font-family="monospace" font-size="11">React · TypeScript · NestJS · PostgreSQL</text>
+  <text x="753" y="372" fill="#7F97A8" font-family="monospace" font-size="11">TOOLS</text><text x="840" y="372" fill="#E6EDF3" font-family="monospace" font-size="11">Docker · Linux · Git · VS Code</text>
+
+  <rect x="338" y="398" width="844" height="1" fill="url(#line)" opacity=".55"/>
+</svg>
